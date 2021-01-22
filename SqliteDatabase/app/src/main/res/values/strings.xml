@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SqliteDatabase</string>
+
+    <string name="u20b9_734">₹</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <string name="Open">Open</string>
+    <string name="close">Close</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="text_with_bullet"> \u25CF</string>
+    <string name="title">Product List</string>
+
+
+</resources>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black">
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black">
+
+        </View>
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_size"
+            android:layout_weight="1"
+            android:text="L"
+            android:textColor="#020427"
+            android:gravity="center"
+            android:padding="10dp">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black">
+
+        </View>
+
+        <EditText
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_qty"
+            android:layout_weight="1"
+            android:cursorVisible="true"
+            android:focusable="true"
+            android:text=""
+            android:background="@color/white"
+            android:textColor="#020427"
+            android:padding="10dp"
+            android:gravity="center"
+            android:inputType="number">
+
+        </EditText>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black">
+
+        </View>
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_rate"
+            android:layout_weight="1"
+            android:text="1299"
+            android:textColor="#020427"
+            android:padding="10dp"
+            android:gravity="center">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black">
+
+        </View>
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_amount"
+            android:layout_weight="1"
+            android:text="75000"
+            android:textColor="#020427"
+            android:padding="10dp"
+            android:gravity="center">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black">
+
+        </View>
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_pcsperbundle"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="#020427"
+            android:padding="10dp"
+            android:gravity="center">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black">
+
+        </View>
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_styleno"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="#020427"
+            android:padding="10dp"
+            android:gravity="center">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black">
+
+        </View>
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_pcsperbox"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="#020427"
+            android:padding="10dp"
+            android:gravity="center">
+
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black">
+
+        </View>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black">
+
+    </View>
+
+</LinearLayout>

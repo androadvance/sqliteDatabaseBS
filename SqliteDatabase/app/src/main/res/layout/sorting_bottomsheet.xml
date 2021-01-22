@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/bottomsheetcontainer"
+    android:background="@drawable/bottom_sheet">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="SORT BY"
+        android:textColor="@color/dark"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorDivider">
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp">
+
+            <RadioGroup
+                android:id="@+id/radiogroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="right"
+                android:inputType="text"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:button="@null"
+                    android:drawableEnd="@android:drawable/btn_radio"
+                    android:drawablePadding="30dp"
+                    android:text="Popularity"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/stylenodtoa"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:button="@null"
+                    android:drawableEnd="@android:drawable/btn_radio"
+                    android:drawablePadding="30dp"
+                    android:text="StyleNo  --  Ascending to Descending"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/stylenoatod"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableEnd="@android:drawable/btn_radio"
+                    android:drawablePadding="30dp"
+                    android:textColor="@color/black"
+                    android:text="StyleNo  --  Descending to Ascending"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/pcsperboxatod"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:textColor="@color/black"
+                    android:drawableEnd="@android:drawable/btn_radio"
+                    android:drawablePadding="30dp"
+                    android:text="PCS Per Box  --  Ascending to Descending"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/pcsperboxdtoa"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:textColor="@color/black"
+                    android:drawableEnd="@android:drawable/btn_radio"
+                    android:drawablePadding="30dp"
+                    android:text="PCS Per Box  --  Descending to Ascending"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:button="@null"
+                    android:drawableEnd="@android:drawable/btn_radio"
+                    android:drawablePadding="30dp"
+                    android:text="Newest First"
+                    android:textSize="14sp" />
+
+               <!-- <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:textColor="@color/black"
+                    android:layoutDirection="rtl"
+                    android:textAlignment="textStart"
+                    android:layout_gravity="start"
+                    android:text="The test item a"
+                    android:textSize="14sp" />-->
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
